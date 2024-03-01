@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alata&display=swap"
+      rel="stylesheet"
+    />
+    <link href="styles.css" rel="stylesheet" />
+    <title>Don't get caught in the rain</title>
+  </head>
+
+  <body>
+    <main class="main__container">
+      <div class="overlay"></div>
+
+      <section class="nav-bar">
+        <ion-icon name="image-outline" class="nav-bar__icon"></ion-icon>
+        <ion-icon
+          name="sunny-outline"
+          class="nav-bar__icon nav-bar__light-icon"
+        ></ion-icon>
+      </section>
+
+      <section class="Hero">
+        <div class="hero__title-subtitle-logo-container">
+          <div class="hero__title-logo-container">
+            <h1 class="hero__title">Don't get caught in the rain</h1>
+            <img
+              src="/Umbrella logo.png"
+              class="hero__logo"
+              alt="Umbrella Logo"
+            />
+          </div>
+          <p class="hero__subtitle">
+            A stylish weather app powered by Brainstation students
+          </p>
+        </div>
+      </section>
+
+      <div class="input__city-subtitle-container">
+        <h2 class="gradient city__input" contenteditable="true">
+          SAN FRANCISCO
+        </h2>
+        <p class="city__submit">Click above to edit & press enter to submit</p>
+      </div>
+
+      <section class="weather-info">
+        <div class="weather-info__main-container">
+          <div class="weather-info__container">
+            <div class="weather-info__title">TEMP:</div>
+            <div class="weather-info__data">22</div>
+            <div class="weather-info__subtitle">°C</div>
+          </div>
+
+          <div class="weather-info__container">
+            <div class="weather-info__title">RAIN:</div>
+            <div class="weather-info__data">10</div>
+            <div class="weather-info__subtitle">MM</div>
+          </div>
+
+          <div class="weather-info__container">
+            <div class="weather-info__title">WIND:</div>
+            <div class="weather-info__data">5</div>
+            <div class="weather-info__subtitle">KPH</div>
+          </div>
+
+          <div class="weather-info__container">
+            <div class="weather-info__title">HUMIDITY:</div>
+            <div class="weather-info__data">16</div>
+            <div class="weather-info__subtitle">%</div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <p class="footer__text">Star us on github</p>
+        <ion-icon name="logo-github" class="nav-bar__icon"></ion-icon>
+      </footer>
+    </main>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

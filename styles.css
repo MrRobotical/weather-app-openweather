@@ -1,0 +1,169 @@
+body {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background-color: black;
+  padding-top: 5%;
+  background-image: url('/alex-knight-wfwUpfVqrKU-unsplash.jpg');
+  background-size: cover;
+  border: none;
+  margin: 0;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: -1;
+}
+
+.main__container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 800px;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-bar__icon {
+  color: white;
+  font-size: 1.8rem;
+  padding-left: 1rem;
+  padding-left: 1rem;
+}
+
+.hero__title-logo-container {
+  display: flex;
+}
+
+.hero__logo {
+  width: 5rem;
+  text-align: left;
+  padding-left: 0rem;
+  padding-bottom: 0.5rem;
+}
+
+.hero__title {
+  font-size: 2.5rem;
+  color: white;
+  margin-top: auto;
+  font-family: 'Alata', sans-serif;
+  transform: translateY(30px);
+}
+
+.hero__subtitle {
+  font-family: 'Alata', sans-serif;
+  font-size: 1rem;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  padding-top: 0.4rem;
+  padding-left: 0.1rem;
+}
+
+.city {
+  display: flex;
+  justify-content: center;
+  margin-left: rem;
+}
+
+h2 {
+  font-family: 'Alata', sans-serif;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  margin-top: 0px;
+  margin-bottom: 8px;
+  color: #03ccfc;
+}
+
+.city__input {
+  font-size: 110px;
+  line-height: 110px;
+  margin-top: 5rem;
+  max-width: 700px;
+  margin-right: 1rem;
+}
+
+.city__submit {
+  color: white;
+  text-transform: uppercase;
+  padding-left: 0.5rem;
+}
+
+.gradient {
+  font-family: 'Alata', sans-serif;
+  background: linear-gradient(75deg, #4ef0c7, #cf03fc, #03ccfc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animate 10s ease infinite;
+  background-size: 200% 200%;
+  text-transform: uppercase;
+  outline: none;
+}
+
+@keyframes animate {
+  0% {
+    background-position: 100% 0%;
+  }
+  50% {
+    background-position: 0% 100%;
+  }
+  100% {
+    background-position: 100% 0%;
+  }
+}
+
+.weather-info {
+  width: 800px;
+}
+
+.weather-info__main-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10%;
+}
+
+.weather-info__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.weather-info__title {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.weather-info__data {
+  font-size: 4rem;
+  color: rgb(0, 204, 255);
+  font-family: 'Alata', sans-serif;
+}
+
+.weather-info__subtitle {
+  color: white;
+  font-family: 'Montserrat' sans-serif;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+}
+
+.footer__text {
+  font-family: 'Montserrat' sans-serif;
+  color: white;
+  padding-top: 0.6rem;
+}
